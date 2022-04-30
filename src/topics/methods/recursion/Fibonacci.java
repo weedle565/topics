@@ -1,5 +1,7 @@
 package topics.methods.recursion;
 
+//This could be a really cool question.
+
 public class Fibonacci {
 
     private static long[] fibnumbers;
@@ -20,6 +22,7 @@ public class Fibonacci {
             return num;
         }
 
+        //Remove array stuff
         if(fibnumbers[num] != 0){
             return fibnumbers[num];
         }
